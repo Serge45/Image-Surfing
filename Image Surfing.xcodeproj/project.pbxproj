@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868631F819683C1300FA938F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868631F719683C1300FA938F /* Cocoa.framework */; };
+		8686320219683C1300FA938F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8686320019683C1300FA938F /* InfoPlist.strings */; };
+		8686320419683C1300FA938F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686320319683C1300FA938F /* main.m */; };
+		8686320819683C1300FA938F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8686320619683C1300FA938F /* Credits.rtf */; };
+		8686320B19683C1300FA938F /* ISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686320A19683C1300FA938F /* ISAppDelegate.m */; };
+		8686320E19683C1300FA938F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8686320C19683C1300FA938F /* MainMenu.xib */; };
+		8686321019683C1300FA938F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8686320F19683C1300FA938F /* Images.xcassets */; };
+		8686321719683C1300FA938F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8686321619683C1300FA938F /* XCTest.framework */; };
+		8686321819683C1300FA938F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868631F719683C1300FA938F /* Cocoa.framework */; };
+		8686322019683C1300FA938F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8686321E19683C1300FA938F /* InfoPlist.strings */; };
+		8686322219683C1300FA938F /* Image_SurfingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686322119683C1300FA938F /* Image_SurfingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8686321919683C1300FA938F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868631EC19683C1300FA938F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868631F319683C1300FA938F;
+			remoteInfo = "Image Surfing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		868631F419683C1300FA938F /* Image Surfing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Surfing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		868631F719683C1300FA938F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		868631FA19683C1300FA938F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		868631FB19683C1300FA938F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		868631FC19683C1300FA938F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		868631FF19683C1300FA938F /* Image Surfing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image Surfing-Info.plist"; sourceTree = "<group>"; };
+		8686320119683C1300FA938F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8686320319683C1300FA938F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8686320519683C1300FA938F /* Image Surfing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image Surfing-Prefix.pch"; sourceTree = "<group>"; };
+		8686320719683C1300FA938F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8686320919683C1300FA938F /* ISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISAppDelegate.h; sourceTree = "<group>"; };
+		8686320A19683C1300FA938F /* ISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISAppDelegate.m; sourceTree = "<group>"; };
+		8686320D19683C1300FA938F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8686320F19683C1300FA938F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8686321519683C1300FA938F /* Image SurfingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image SurfingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8686321619683C1300FA938F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8686321D19683C1300FA938F /* Image SurfingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image SurfingTests-Info.plist"; sourceTree = "<group>"; };
+		8686321F19683C1300FA938F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8686322119683C1300FA938F /* Image_SurfingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_SurfingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868631F119683C1300FA938F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868631F819683C1300FA938F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8686321219683C1300FA938F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8686321819683C1300FA938F /* Cocoa.framework in Frameworks */,
+				8686321719683C1300FA938F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		868631EB19683C1300FA938F = {
+			isa = PBXGroup;
+			children = (
+				868631FD19683C1300FA938F /* Image Surfing */,
+				8686321B19683C1300FA938F /* Image SurfingTests */,
+				868631F619683C1300FA938F /* Frameworks */,
+				868631F519683C1300FA938F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		868631F519683C1300FA938F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868631F419683C1300FA938F /* Image Surfing.app */,
+				8686321519683C1300FA938F /* Image SurfingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		868631F619683C1300FA938F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				868631F719683C1300FA938F /* Cocoa.framework */,
+				8686321619683C1300FA938F /* XCTest.framework */,
+				868631F919683C1300FA938F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		868631F919683C1300FA938F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				868631FA19683C1300FA938F /* AppKit.framework */,
+				868631FB19683C1300FA938F /* CoreData.framework */,
+				868631FC19683C1300FA938F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		868631FD19683C1300FA938F /* Image Surfing */ = {
+			isa = PBXGroup;
+			children = (
+				8686320919683C1300FA938F /* ISAppDelegate.h */,
+				8686320A19683C1300FA938F /* ISAppDelegate.m */,
+				8686320C19683C1300FA938F /* MainMenu.xib */,
+				8686320F19683C1300FA938F /* Images.xcassets */,
+				868631FE19683C1300FA938F /* Supporting Files */,
+			);
+			path = "Image Surfing";
+			sourceTree = "<group>";
+		};
+		868631FE19683C1300FA938F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				868631FF19683C1300FA938F /* Image Surfing-Info.plist */,
+				8686320019683C1300FA938F /* InfoPlist.strings */,
+				8686320319683C1300FA938F /* main.m */,
+				8686320519683C1300FA938F /* Image Surfing-Prefix.pch */,
+				8686320619683C1300FA938F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8686321B19683C1300FA938F /* Image SurfingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8686322119683C1300FA938F /* Image_SurfingTests.m */,
+				8686321C19683C1300FA938F /* Supporting Files */,
+			);
+			path = "Image SurfingTests";
+			sourceTree = "<group>";
+		};
+		8686321C19683C1300FA938F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8686321D19683C1300FA938F /* Image SurfingTests-Info.plist */,
+				8686321E19683C1300FA938F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		868631F319683C1300FA938F /* Image Surfing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8686322519683C1300FA938F /* Build configuration list for PBXNativeTarget "Image Surfing" */;
+			buildPhases = (
+				868631F019683C1300FA938F /* Sources */,
+				868631F119683C1300FA938F /* Frameworks */,
+				868631F219683C1300FA938F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Surfing";
+			productName = "Image Surfing";
+			productReference = 868631F419683C1300FA938F /* Image Surfing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8686321419683C1300FA938F /* Image SurfingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8686322819683C1300FA938F /* Build configuration list for PBXNativeTarget "Image SurfingTests" */;
+			buildPhases = (
+				8686321119683C1300FA938F /* Sources */,
+				8686321219683C1300FA938F /* Frameworks */,
+				8686321319683C1300FA938F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8686321A19683C1300FA938F /* PBXTargetDependency */,
+			);
+			name = "Image SurfingTests";
+			productName = "Image SurfingTests";
+			productReference = 8686321519683C1300FA938F /* Image SurfingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868631EC19683C1300FA938F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Serge Lu";
+				TargetAttributes = {
+					8686321419683C1300FA938F = {
+						TestTargetID = 868631F319683C1300FA938F;
+					};
+				};
+			};
+			buildConfigurationList = 868631EF19683C1300FA938F /* Build configuration list for PBXProject "Image Surfing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 868631EB19683C1300FA938F;
+			productRefGroup = 868631F519683C1300FA938F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				868631F319683C1300FA938F /* Image Surfing */,
+				8686321419683C1300FA938F /* Image SurfingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		868631F219683C1300FA938F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8686320219683C1300FA938F /* InfoPlist.strings in Resources */,
+				8686321019683C1300FA938F /* Images.xcassets in Resources */,
+				8686320819683C1300FA938F /* Credits.rtf in Resources */,
+				8686320E19683C1300FA938F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8686321319683C1300FA938F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8686322019683C1300FA938F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868631F019683C1300FA938F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8686320B19683C1300FA938F /* ISAppDelegate.m in Sources */,
+				8686320419683C1300FA938F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8686321119683C1300FA938F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8686322219683C1300FA938F /* Image_SurfingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8686321A19683C1300FA938F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868631F319683C1300FA938F /* Image Surfing */;
+			targetProxy = 8686321919683C1300FA938F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8686320019683C1300FA938F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8686320119683C1300FA938F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8686320619683C1300FA938F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8686320719683C1300FA938F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8686320C19683C1300FA938F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8686320D19683C1300FA938F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8686321E19683C1300FA938F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8686321F19683C1300FA938F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8686322319683C1300FA938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8686322419683C1300FA938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8686322619683C1300FA938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Surfing/Image Surfing-Prefix.pch";
+				INFOPLIST_FILE = "Image Surfing/Image Surfing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8686322719683C1300FA938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Surfing/Image Surfing-Prefix.pch";
+				INFOPLIST_FILE = "Image Surfing/Image Surfing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8686322919683C1300FA938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Image Surfing.app/Contents/MacOS/Image Surfing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Surfing/Image Surfing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Image SurfingTests/Image SurfingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8686322A19683C1300FA938F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Image Surfing.app/Contents/MacOS/Image Surfing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Surfing/Image Surfing-Prefix.pch";
+				INFOPLIST_FILE = "Image SurfingTests/Image SurfingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		868631EF19683C1300FA938F /* Build configuration list for PBXProject "Image Surfing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8686322319683C1300FA938F /* Debug */,
+				8686322419683C1300FA938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8686322519683C1300FA938F /* Build configuration list for PBXNativeTarget "Image Surfing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8686322619683C1300FA938F /* Debug */,
+				8686322719683C1300FA938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8686322819683C1300FA938F /* Build configuration list for PBXNativeTarget "Image SurfingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8686322919683C1300FA938F /* Debug */,
+				8686322A19683C1300FA938F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 868631EC19683C1300FA938F /* Project object */;
+}
